@@ -1,10 +1,13 @@
 {
-  "skill": "copywriting",
-  "description": "Write marketing content and sales copy",
+  "id": "copywriting",
+  "name": "Copywriting",
+  "category": "marketing",
+  "description": "Write marketing content and sales copy.",
   "agents": ["marketing_agent"],
-  "tools": {
+  "models_by_region": {
     "global": ["ChatGPT"],
     "china": ["文心一言"],
     "japan": ["Claude"]
-  }
+  },
+  "prompt_template": "You are a world-class copywriter. Write {{type}} copy for {{product}} targeting {{audience}} in {{language}}."
 }
