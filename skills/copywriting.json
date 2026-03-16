@@ -1,1 +1,10 @@
-
+{
+  "skill": "copywriting",
+  "description": "Write marketing content and sales copy",
+  "agents": ["marketing_agent"],
+  "tools": {
+    "global": ["ChatGPT"],
+    "china": ["文心一言"],
+    "japan": ["Claude"]
+  }
+}
